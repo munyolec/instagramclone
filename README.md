@@ -19,7 +19,9 @@ Create a virtual environment to install dependencies in and activate it
  ```
 
 Install the dependencies
+```bash
 (env)$ pip install -r requirements.txt
+```
 
 Ensure (env) is infront of the prompt to know you are working in the virtual environment
 
