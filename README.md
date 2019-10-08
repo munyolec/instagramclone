@@ -2,12 +2,15 @@
 This is an instagram clone
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-## Installation
-Use package manager pip to install python version3 and django
-```bash
-pip install python
-pip install django
+## Requirements
 ```
+- Postgres database
+- python 3.7
+- pip
+- virtualenv/ pipenv
+- psycopg2
+```
+
 ## Setup
 The first thing to do is to clone the repository
  $git clone https://github.com/munyolec/instagramclone
