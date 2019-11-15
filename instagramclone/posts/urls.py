@@ -1,6 +1,8 @@
-from rest_framework import routers
 from .api import PostViewSet
+from django.urls import path
+from .views import FileUploadView
 
-router=routers.DefaultRouter()
-router.register('api/posts',PostViewSet,'posts')
-urlpatterns=router.urls
+
+urlpatterns = [
+    path('api/posts/', FileUploadView.as_view())
+]
