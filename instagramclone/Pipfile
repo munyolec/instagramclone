@@ -9,7 +9,7 @@ verify_ssl = true
 cffi = "==1.13.1"
 cryptography = "==2.8"
 django-rest-knox = "==4.1.0"
-djangorestframework = "==3.10.3"
+djangorestframework = "==3.11.2"
 pycparser = "==2.19"
 pytz = "==2019.3"
 six = "==1.12.0"
